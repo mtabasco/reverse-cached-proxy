@@ -1,0 +1,13 @@
+[package]
+name = "reverse_cached_proxy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.2.1"
+endorphin = "0.1.9"
+hyper = { version = "0.14.20", features = ["full"] }
+tokio = { version = "1.21.2", features = ["full"] }
+hyper-tls = "0.5.0"
